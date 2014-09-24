@@ -1,0 +1,322 @@
+2014-09-24 00:00:02,117 [qtp333967374-29] INFO  [org.jasig.cas.client.proxy.ProxyGrantingTicketStorageImpl] - No Proxy Ticket found for 
+2014-09-24 00:00:19,277 [qtp333967374-29] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL query
+2014-09-24 00:00:19,278 [qtp333967374-29] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL statement [ SELECT u.USERNAME, u.PASSWORD, u.ENABLED, u.USERNAMECN FROM users u  WHERE  	u.USERNAME = ? ]
+2014-09-24 00:03:54,685 [main] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2014-09-24 00:03:54,765 [main] INFO  [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Wed Sep 24 00:03:54 CST 2014]; root of context hierarchy
+2014-09-24 00:03:54,803 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-09-24 00:03:54,934 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext-db.xml]
+2014-09-24 00:03:55,395 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2014-09-24 00:03:55,476 [main] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 791 ms
+2014-09-24 00:03:55,484 [main] INFO  [org.jasig.cas.client.session.SingleSignOutFilter] - Property [artifactParameterName] not found.  Using default value [ticket]
+2014-09-24 00:03:55,487 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [serverName] loaded from FilterConfig.getInitParameter with value [http://localhost:80]
+2014-09-24 00:03:55,487 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [service] not found.  Using default value [null]
+2014-09-24 00:03:55,487 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [artifactParameterName] not found.  Using default value [ticket]
+2014-09-24 00:03:55,487 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [serviceParameterName] not found.  Using default value [service]
+2014-09-24 00:03:55,487 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [encodeServiceUrl] not found.  Using default value [true]
+2014-09-24 00:03:55,487 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [casServerLoginUrl] loaded from FilterConfig.getInitParameter with value [https://sso.wsria.com:8443/cas/login]
+2014-09-24 00:03:55,487 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [renew] not found.  Using default value [false]
+2014-09-24 00:03:55,488 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [gateway] not found.  Using default value [false]
+2014-09-24 00:03:55,488 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [gatewayStorageClass] not found.  Using default value [null]
+2014-09-24 00:03:55,492 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [serverName] loaded from FilterConfig.getInitParameter with value [http://localhost:80]
+2014-09-24 00:03:55,492 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [service] not found.  Using default value [null]
+2014-09-24 00:03:55,492 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [artifactParameterName] not found.  Using default value [ticket]
+2014-09-24 00:03:55,493 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [serviceParameterName] not found.  Using default value [service]
+2014-09-24 00:03:55,493 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [encodeServiceUrl] not found.  Using default value [true]
+2014-09-24 00:03:55,493 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [exceptionOnValidationFailure] not found.  Using default value [true]
+2014-09-24 00:03:55,493 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [redirectAfterValidation] not found.  Using default value [true]
+2014-09-24 00:03:55,493 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [useSession] not found.  Using default value [true]
+2014-09-24 00:03:55,493 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [acceptAnyProxy] not found.  Using default value [null]
+2014-09-24 00:03:55,493 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [allowedProxyChains] not found.  Using default value [null]
+2014-09-24 00:03:55,494 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [casServerUrlPrefix] loaded from FilterConfig.getInitParameter with value [https://sso.wsria.com:8443/cas]
+2014-09-24 00:03:55,495 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [proxyCallbackUrl] not found.  Using default value [null]
+2014-09-24 00:03:55,495 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [renew] not found.  Using default value [false]
+2014-09-24 00:03:55,495 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [proxyReceptorUrl] not found.  Using default value [null]
+2014-09-24 00:03:55,495 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [proxyGrantingTicketStorageClass] not found.  Using default value [null]
+2014-09-24 00:03:55,495 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [millisBetweenCleanUps] not found.  Using default value [60000]
+2014-09-24 00:03:55,497 [main] INFO  [org.jasig.cas.client.util.HttpServletRequestWrapperFilter] - Property [roleAttribute] not found.  Using default value [null]
+2014-09-24 00:03:55,497 [main] INFO  [org.jasig.cas.client.util.HttpServletRequestWrapperFilter] - Property [ignoreCase] not found.  Using default value [false]
+2014-09-24 00:03:55,541 [main] INFO  [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springMvcServlet': initialization started
+2014-09-24 00:03:55,543 [main] INFO  [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springMvcServlet-servlet': startup date [Wed Sep 24 00:03:55 CST 2014]; parent: Root WebApplicationContext
+2014-09-24 00:03:55,546 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-context.xml]
+2014-09-24 00:03:56,039 [main] INFO  [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springMvcServlet': initialization completed in 498 ms
+2014-09-24 00:04:08,141 [qtp502294627-29] INFO  [org.jasig.cas.client.proxy.ProxyGrantingTicketStorageImpl] - No Proxy Ticket found for 
+2014-09-24 00:04:08,157 [qtp502294627-29] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL query
+2014-09-24 00:04:08,157 [qtp502294627-29] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL statement [ SELECT u.USERNAME, u.PASSWORD, u.ENABLED, u.USERNAMECN FROM users u  WHERE  	u.USERNAME = ? ]
+2014-09-24 00:10:34,174 [main] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2014-09-24 00:10:34,263 [main] INFO  [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Wed Sep 24 00:10:34 CST 2014]; root of context hierarchy
+2014-09-24 00:10:34,302 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-09-24 00:10:34,446 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext-db.xml]
+2014-09-24 00:10:34,867 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2014-09-24 00:10:34,949 [main] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 774 ms
+2014-09-24 00:10:34,956 [main] INFO  [org.jasig.cas.client.session.SingleSignOutFilter] - Property [artifactParameterName] not found.  Using default value [ticket]
+2014-09-24 00:10:34,957 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [serverName] loaded from FilterConfig.getInitParameter with value [http://localhost:80]
+2014-09-24 00:10:34,958 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [service] not found.  Using default value [null]
+2014-09-24 00:10:34,958 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [artifactParameterName] not found.  Using default value [ticket]
+2014-09-24 00:10:34,958 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [serviceParameterName] not found.  Using default value [service]
+2014-09-24 00:10:34,958 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [encodeServiceUrl] not found.  Using default value [true]
+2014-09-24 00:10:34,958 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [casServerLoginUrl] loaded from FilterConfig.getInitParameter with value [https://sso.wsria.com:8443/cas/login]
+2014-09-24 00:10:34,958 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [renew] not found.  Using default value [false]
+2014-09-24 00:10:34,958 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [gateway] not found.  Using default value [false]
+2014-09-24 00:10:34,958 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [gatewayStorageClass] not found.  Using default value [null]
+2014-09-24 00:10:34,962 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [serverName] loaded from FilterConfig.getInitParameter with value [http://localhost:80]
+2014-09-24 00:10:34,962 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [service] not found.  Using default value [null]
+2014-09-24 00:10:34,962 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [artifactParameterName] not found.  Using default value [ticket]
+2014-09-24 00:10:34,963 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [serviceParameterName] not found.  Using default value [service]
+2014-09-24 00:10:34,963 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [encodeServiceUrl] not found.  Using default value [true]
+2014-09-24 00:10:34,963 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [exceptionOnValidationFailure] not found.  Using default value [true]
+2014-09-24 00:10:34,963 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [redirectAfterValidation] not found.  Using default value [true]
+2014-09-24 00:10:34,963 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [useSession] not found.  Using default value [true]
+2014-09-24 00:10:34,963 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [acceptAnyProxy] not found.  Using default value [null]
+2014-09-24 00:10:34,963 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [allowedProxyChains] not found.  Using default value [null]
+2014-09-24 00:10:34,964 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [casServerUrlPrefix] loaded from FilterConfig.getInitParameter with value [https://sso.wsria.com:8443/cas]
+2014-09-24 00:10:34,965 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [proxyCallbackUrl] not found.  Using default value [null]
+2014-09-24 00:10:34,965 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [renew] not found.  Using default value [false]
+2014-09-24 00:10:34,965 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [proxyReceptorUrl] not found.  Using default value [null]
+2014-09-24 00:10:34,965 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [proxyGrantingTicketStorageClass] not found.  Using default value [null]
+2014-09-24 00:10:34,965 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [millisBetweenCleanUps] not found.  Using default value [60000]
+2014-09-24 00:10:34,966 [main] INFO  [org.jasig.cas.client.util.HttpServletRequestWrapperFilter] - Property [roleAttribute] not found.  Using default value [null]
+2014-09-24 00:10:34,966 [main] INFO  [org.jasig.cas.client.util.HttpServletRequestWrapperFilter] - Property [ignoreCase] not found.  Using default value [false]
+2014-09-24 00:10:35,008 [main] INFO  [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springMvcServlet': initialization started
+2014-09-24 00:10:35,010 [main] INFO  [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springMvcServlet-servlet': startup date [Wed Sep 24 00:10:35 CST 2014]; parent: Root WebApplicationContext
+2014-09-24 00:10:35,012 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-context.xml]
+2014-09-24 00:10:35,510 [main] INFO  [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springMvcServlet': initialization completed in 502 ms
+2014-09-24 00:10:44,969 [qtp365962226-29] INFO  [org.jasig.cas.client.proxy.ProxyGrantingTicketStorageImpl] - No Proxy Ticket found for 
+2014-09-24 00:10:44,989 [qtp365962226-29] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL query
+2014-09-24 00:10:44,990 [qtp365962226-29] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL statement [ SELECT u.USERNAME, u.PASSWORD, u.ENABLED, u.USERNAMECN FROM users u  WHERE  	u.USERNAME = ? ]
+2014-09-24 00:18:17,140 [main] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2014-09-24 00:18:17,210 [main] INFO  [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Wed Sep 24 00:18:17 CST 2014]; root of context hierarchy
+2014-09-24 00:18:17,242 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-09-24 00:18:17,367 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext-db.xml]
+2014-09-24 00:18:17,761 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2014-09-24 00:18:17,835 [main] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 695 ms
+2014-09-24 00:18:17,841 [main] INFO  [org.jasig.cas.client.session.SingleSignOutFilter] - Property [artifactParameterName] not found.  Using default value [ticket]
+2014-09-24 00:18:17,843 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [serverName] loaded from FilterConfig.getInitParameter with value [http://localhost:80]
+2014-09-24 00:18:17,843 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [service] not found.  Using default value [null]
+2014-09-24 00:18:17,843 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [artifactParameterName] not found.  Using default value [ticket]
+2014-09-24 00:18:17,843 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [serviceParameterName] not found.  Using default value [service]
+2014-09-24 00:18:17,843 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [encodeServiceUrl] not found.  Using default value [true]
+2014-09-24 00:18:17,843 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [casServerLoginUrl] loaded from FilterConfig.getInitParameter with value [https://sso.wsria.com:8443/cas/login]
+2014-09-24 00:18:17,843 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [renew] not found.  Using default value [false]
+2014-09-24 00:18:17,843 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [gateway] not found.  Using default value [false]
+2014-09-24 00:18:17,843 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [gatewayStorageClass] not found.  Using default value [null]
+2014-09-24 00:18:17,847 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [serverName] loaded from FilterConfig.getInitParameter with value [http://localhost:80]
+2014-09-24 00:18:17,847 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [service] not found.  Using default value [null]
+2014-09-24 00:18:17,847 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [artifactParameterName] not found.  Using default value [ticket]
+2014-09-24 00:18:17,847 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [serviceParameterName] not found.  Using default value [service]
+2014-09-24 00:18:17,847 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [encodeServiceUrl] not found.  Using default value [true]
+2014-09-24 00:18:17,848 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [exceptionOnValidationFailure] not found.  Using default value [true]
+2014-09-24 00:18:17,848 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [redirectAfterValidation] not found.  Using default value [true]
+2014-09-24 00:18:17,848 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [useSession] not found.  Using default value [true]
+2014-09-24 00:18:17,848 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [acceptAnyProxy] not found.  Using default value [null]
+2014-09-24 00:18:17,848 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [allowedProxyChains] not found.  Using default value [null]
+2014-09-24 00:18:17,848 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [casServerUrlPrefix] loaded from FilterConfig.getInitParameter with value [https://sso.wsria.com:8443/cas]
+2014-09-24 00:18:17,849 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [proxyCallbackUrl] not found.  Using default value [null]
+2014-09-24 00:18:17,849 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [renew] not found.  Using default value [false]
+2014-09-24 00:18:17,849 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [proxyReceptorUrl] not found.  Using default value [null]
+2014-09-24 00:18:17,849 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [proxyGrantingTicketStorageClass] not found.  Using default value [null]
+2014-09-24 00:18:17,850 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [millisBetweenCleanUps] not found.  Using default value [60000]
+2014-09-24 00:18:17,850 [main] INFO  [org.jasig.cas.client.util.HttpServletRequestWrapperFilter] - Property [roleAttribute] not found.  Using default value [null]
+2014-09-24 00:18:17,850 [main] INFO  [org.jasig.cas.client.util.HttpServletRequestWrapperFilter] - Property [ignoreCase] not found.  Using default value [false]
+2014-09-24 00:18:17,889 [main] INFO  [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springMvcServlet': initialization started
+2014-09-24 00:18:17,891 [main] INFO  [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springMvcServlet-servlet': startup date [Wed Sep 24 00:18:17 CST 2014]; parent: Root WebApplicationContext
+2014-09-24 00:18:17,893 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-context.xml]
+2014-09-24 00:18:18,327 [main] INFO  [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springMvcServlet': initialization completed in 438 ms
+2014-09-24 00:19:56,832 [qtp535465920-28] INFO  [org.jasig.cas.client.proxy.ProxyGrantingTicketStorageImpl] - No Proxy Ticket found for 
+2014-09-24 00:19:56,848 [qtp535465920-31] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL query
+2014-09-24 00:19:56,848 [qtp535465920-31] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL statement [ SELECT u.USERNAME, u.PASSWORD, u.ENABLED, u.USERNAMECN FROM users u  WHERE  	u.USERNAME = ? ]
+2014-09-24 00:24:19,975 [main] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2014-09-24 00:24:20,042 [main] INFO  [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Wed Sep 24 00:24:20 CST 2014]; root of context hierarchy
+2014-09-24 00:24:20,076 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-09-24 00:24:20,210 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext-db.xml]
+2014-09-24 00:24:20,643 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2014-09-24 00:24:20,723 [main] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 747 ms
+2014-09-24 00:24:20,730 [main] INFO  [org.jasig.cas.client.session.SingleSignOutFilter] - Property [artifactParameterName] not found.  Using default value [ticket]
+2014-09-24 00:24:20,732 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [serverName] loaded from FilterConfig.getInitParameter with value [http://localhost:80]
+2014-09-24 00:24:20,732 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [service] not found.  Using default value [null]
+2014-09-24 00:24:20,732 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [artifactParameterName] not found.  Using default value [ticket]
+2014-09-24 00:24:20,732 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [serviceParameterName] not found.  Using default value [service]
+2014-09-24 00:24:20,732 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [encodeServiceUrl] not found.  Using default value [true]
+2014-09-24 00:24:20,732 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [casServerLoginUrl] loaded from FilterConfig.getInitParameter with value [https://sso.wsria.com:8443/cas/login]
+2014-09-24 00:24:20,732 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [renew] not found.  Using default value [false]
+2014-09-24 00:24:20,733 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [gateway] not found.  Using default value [false]
+2014-09-24 00:24:20,733 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [gatewayStorageClass] not found.  Using default value [null]
+2014-09-24 00:24:20,737 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [serverName] loaded from FilterConfig.getInitParameter with value [http://localhost:80]
+2014-09-24 00:24:20,737 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [service] not found.  Using default value [null]
+2014-09-24 00:24:20,737 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [artifactParameterName] not found.  Using default value [ticket]
+2014-09-24 00:24:20,737 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [serviceParameterName] not found.  Using default value [service]
+2014-09-24 00:24:20,737 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [encodeServiceUrl] not found.  Using default value [true]
+2014-09-24 00:24:20,737 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [exceptionOnValidationFailure] not found.  Using default value [true]
+2014-09-24 00:24:20,737 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [redirectAfterValidation] not found.  Using default value [true]
+2014-09-24 00:24:20,738 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [useSession] not found.  Using default value [true]
+2014-09-24 00:24:20,738 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [acceptAnyProxy] not found.  Using default value [null]
+2014-09-24 00:24:20,738 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [allowedProxyChains] not found.  Using default value [null]
+2014-09-24 00:24:20,738 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [casServerUrlPrefix] loaded from FilterConfig.getInitParameter with value [https://sso.wsria.com:8443/cas]
+2014-09-24 00:24:20,739 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [proxyCallbackUrl] not found.  Using default value [null]
+2014-09-24 00:24:20,739 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [renew] not found.  Using default value [false]
+2014-09-24 00:24:20,739 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [proxyReceptorUrl] not found.  Using default value [null]
+2014-09-24 00:24:20,739 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [proxyGrantingTicketStorageClass] not found.  Using default value [null]
+2014-09-24 00:24:20,740 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [millisBetweenCleanUps] not found.  Using default value [60000]
+2014-09-24 00:24:20,740 [main] INFO  [org.jasig.cas.client.util.HttpServletRequestWrapperFilter] - Property [roleAttribute] not found.  Using default value [null]
+2014-09-24 00:24:20,741 [main] INFO  [org.jasig.cas.client.util.HttpServletRequestWrapperFilter] - Property [ignoreCase] not found.  Using default value [false]
+2014-09-24 00:24:20,782 [main] INFO  [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springMvcServlet': initialization started
+2014-09-24 00:24:20,784 [main] INFO  [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springMvcServlet-servlet': startup date [Wed Sep 24 00:24:20 CST 2014]; parent: Root WebApplicationContext
+2014-09-24 00:24:20,786 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-context.xml]
+2014-09-24 00:24:21,268 [main] INFO  [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springMvcServlet': initialization completed in 486 ms
+2014-09-24 00:24:44,807 [qtp502294627-29] WARN  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - org.jasig.cas.client.validation.TicketValidationException: 
+		未能够识别出目标 'ST-22-4iohZVtmmiuBMcjUTHZh-cas01.example.org'票根
+	
+org.jasig.cas.client.validation.TicketValidationException: 
+		未能够识别出目标 'ST-22-4iohZVtmmiuBMcjUTHZh-cas01.example.org'票根
+	
+	at org.jasig.cas.client.validation.Cas20ServiceTicketValidator.parseResponseFromServer(Cas20ServiceTicketValidator.java:73)
+	at org.jasig.cas.client.validation.AbstractUrlBasedTicketValidator.validate(AbstractUrlBasedTicketValidator.java:188)
+	at org.jasig.cas.client.validation.AbstractTicketValidationFilter.doFilter(AbstractTicketValidationFilter.java:132)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)
+	at org.jasig.cas.client.authentication.AuthenticationFilter.doFilter(AuthenticationFilter.java:102)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)
+	at org.jasig.cas.client.session.SingleSignOutFilter.doFilter(SingleSignOutFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2014-09-24 00:24:50,239 [qtp502294627-32] WARN  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - org.jasig.cas.client.validation.TicketValidationException: 
+		未能够识别出目标 'ST-22-4iohZVtmmiuBMcjUTHZh-cas01.example.org'票根
+	
+org.jasig.cas.client.validation.TicketValidationException: 
+		未能够识别出目标 'ST-22-4iohZVtmmiuBMcjUTHZh-cas01.example.org'票根
+	
+	at org.jasig.cas.client.validation.Cas20ServiceTicketValidator.parseResponseFromServer(Cas20ServiceTicketValidator.java:73)
+	at org.jasig.cas.client.validation.AbstractUrlBasedTicketValidator.validate(AbstractUrlBasedTicketValidator.java:188)
+	at org.jasig.cas.client.validation.AbstractTicketValidationFilter.doFilter(AbstractTicketValidationFilter.java:132)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)
+	at org.jasig.cas.client.authentication.AuthenticationFilter.doFilter(AuthenticationFilter.java:102)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)
+	at org.jasig.cas.client.session.SingleSignOutFilter.doFilter(SingleSignOutFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2014-09-24 00:24:57,816 [qtp502294627-29] INFO  [org.jasig.cas.client.proxy.ProxyGrantingTicketStorageImpl] - No Proxy Ticket found for 
+2014-09-24 00:25:32,412 [qtp502294627-32] WARN  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - org.jasig.cas.client.validation.TicketValidationException: 
+		未能够识别出目标 'ST-24-SAD65f6MqnHS2txVgggb-cas01.example.org'票根
+	
+org.jasig.cas.client.validation.TicketValidationException: 
+		未能够识别出目标 'ST-24-SAD65f6MqnHS2txVgggb-cas01.example.org'票根
+	
+	at org.jasig.cas.client.validation.Cas20ServiceTicketValidator.parseResponseFromServer(Cas20ServiceTicketValidator.java:73)
+	at org.jasig.cas.client.validation.AbstractUrlBasedTicketValidator.validate(AbstractUrlBasedTicketValidator.java:188)
+	at org.jasig.cas.client.validation.AbstractTicketValidationFilter.doFilter(AbstractTicketValidationFilter.java:132)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)
+	at org.jasig.cas.client.authentication.AuthenticationFilter.doFilter(AuthenticationFilter.java:93)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)
+	at org.jasig.cas.client.session.SingleSignOutFilter.doFilter(SingleSignOutFilter.java:110)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2014-09-24 00:25:37,759 [qtp502294627-30] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL query
+2014-09-24 00:25:37,760 [qtp502294627-30] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL statement [ SELECT u.USERNAME, u.PASSWORD, u.ENABLED, u.USERNAMECN FROM users u  WHERE  	u.USERNAME = ? ]
+2014-09-24 00:26:43,845 [qtp502294627-41] INFO  [org.jasig.cas.client.proxy.ProxyGrantingTicketStorageImpl] - No Proxy Ticket found for 
+2014-09-24 00:26:43,849 [qtp502294627-43] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL query
+2014-09-24 00:26:43,849 [qtp502294627-43] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL statement [ SELECT u.USERNAME, u.PASSWORD, u.ENABLED, u.USERNAMECN FROM users u  WHERE  	u.USERNAME = ? ]
+2014-09-24 00:28:37,928 [main] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2014-09-24 00:28:37,993 [main] INFO  [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Wed Sep 24 00:28:37 CST 2014]; root of context hierarchy
+2014-09-24 00:28:38,028 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+2014-09-24 00:28:38,162 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext-db.xml]
+2014-09-24 00:28:38,597 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2014-09-24 00:28:38,681 [main] INFO  [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 753 ms
+2014-09-24 00:28:38,688 [main] INFO  [org.jasig.cas.client.session.SingleSignOutFilter] - Property [artifactParameterName] not found.  Using default value [ticket]
+2014-09-24 00:28:38,689 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [serverName] loaded from FilterConfig.getInitParameter with value [http://localhost:80]
+2014-09-24 00:28:38,690 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [service] not found.  Using default value [null]
+2014-09-24 00:28:38,690 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [artifactParameterName] not found.  Using default value [ticket]
+2014-09-24 00:28:38,690 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [serviceParameterName] not found.  Using default value [service]
+2014-09-24 00:28:38,690 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [encodeServiceUrl] not found.  Using default value [true]
+2014-09-24 00:28:38,690 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [casServerLoginUrl] loaded from FilterConfig.getInitParameter with value [https://sso.wsria.com:8443/cas/login]
+2014-09-24 00:28:38,690 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [renew] not found.  Using default value [false]
+2014-09-24 00:28:38,690 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [gateway] not found.  Using default value [false]
+2014-09-24 00:28:38,691 [main] INFO  [org.jasig.cas.client.authentication.AuthenticationFilter] - Property [gatewayStorageClass] not found.  Using default value [null]
+2014-09-24 00:28:38,695 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [serverName] loaded from FilterConfig.getInitParameter with value [http://localhost:80]
+2014-09-24 00:28:38,695 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [service] not found.  Using default value [null]
+2014-09-24 00:28:38,695 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [artifactParameterName] not found.  Using default value [ticket]
+2014-09-24 00:28:38,695 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [serviceParameterName] not found.  Using default value [service]
+2014-09-24 00:28:38,695 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [encodeServiceUrl] not found.  Using default value [true]
+2014-09-24 00:28:38,695 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [exceptionOnValidationFailure] not found.  Using default value [true]
+2014-09-24 00:28:38,695 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [redirectAfterValidation] not found.  Using default value [true]
+2014-09-24 00:28:38,696 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [useSession] not found.  Using default value [true]
+2014-09-24 00:28:38,696 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [acceptAnyProxy] not found.  Using default value [null]
+2014-09-24 00:28:38,696 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [allowedProxyChains] not found.  Using default value [null]
+2014-09-24 00:28:38,696 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [casServerUrlPrefix] loaded from FilterConfig.getInitParameter with value [https://sso.wsria.com:8443/cas]
+2014-09-24 00:28:38,697 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [proxyCallbackUrl] not found.  Using default value [null]
+2014-09-24 00:28:38,697 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [renew] not found.  Using default value [false]
+2014-09-24 00:28:38,697 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [proxyReceptorUrl] not found.  Using default value [null]
+2014-09-24 00:28:38,697 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [proxyGrantingTicketStorageClass] not found.  Using default value [null]
+2014-09-24 00:28:38,698 [main] INFO  [org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter] - Property [millisBetweenCleanUps] not found.  Using default value [60000]
+2014-09-24 00:28:38,699 [main] INFO  [org.jasig.cas.client.util.HttpServletRequestWrapperFilter] - Property [roleAttribute] not found.  Using default value [null]
+2014-09-24 00:28:38,699 [main] INFO  [org.jasig.cas.client.util.HttpServletRequestWrapperFilter] - Property [ignoreCase] not found.  Using default value [false]
+2014-09-24 00:28:38,743 [main] INFO  [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springMvcServlet': initialization started
+2014-09-24 00:28:38,745 [main] INFO  [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springMvcServlet-servlet': startup date [Wed Sep 24 00:28:38 CST 2014]; parent: Root WebApplicationContext
+2014-09-24 00:28:38,747 [main] INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-context.xml]
+2014-09-24 00:28:39,237 [main] INFO  [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springMvcServlet': initialization completed in 494 ms
+2014-09-24 00:28:54,930 [qtp365962226-31] INFO  [org.jasig.cas.client.proxy.ProxyGrantingTicketStorageImpl] - No Proxy Ticket found for 
+2014-09-24 00:28:54,942 [qtp365962226-30] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL query
+2014-09-24 00:28:54,942 [qtp365962226-30] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL statement [ SELECT u.USERNAME, u.PASSWORD, u.ENABLED, u.USERNAMECN FROM users u  WHERE  	u.USERNAME = ? ]
+2014-09-24 00:29:09,780 [qtp365962226-35] INFO  [org.jasig.cas.client.proxy.ProxyGrantingTicketStorageImpl] - No Proxy Ticket found for 
+2014-09-24 00:29:09,784 [qtp365962226-31] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL query
+2014-09-24 00:29:09,784 [qtp365962226-31] DEBUG [org.springframework.jdbc.core.JdbcTemplate] - Executing prepared SQL statement [ SELECT u.USERNAME, u.PASSWORD, u.ENABLED, u.USERNAMECN FROM users u  WHERE  	u.USERNAME = ? ]
